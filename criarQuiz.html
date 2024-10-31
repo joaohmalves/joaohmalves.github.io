@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyQuiz</title>
+    <link rel="stylesheet" href="cssProf/criarStyle.css"><link rel="stylesheet" href="cssProf/homeProfStyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;0,400;0,700;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="logo">EasyQuiz</div>
+    <nav>
+      <a href="profHome.html" class="active">Home</a>
+      <div class="profile">
+        <img src="imgs/profile.png" height="30px" alt="Perfil">
+        <span>Bem vindo</span>
+      </div>
+    </nav>
+  </header>
+    
+    <main>
+        <section class="quiz-container">
+            <input type="text" placeholder="Digite aqui a questão" class="question-input">
+            
+            <div class="alternatives">
+                <h2>Alternativas</h2>
+                <div class="alternative">
+                    <input type="checkbox">
+                    <input type="text" placeholder="Digite aqui a resposta" class="alternative-input">
+                </div>
+                <div class="alternative">
+                    <input type="checkbox">
+                    <input type="text" placeholder="Digite aqui a resposta" class="alternative-input">
+                </div>
+                <div class="alternative">
+                    <input type="checkbox">
+                    <input type="text" placeholder="Digite aqui a resposta" class="alternative-input">
+                </div>
+                <div class="alternative">
+                    <input type="checkbox">
+                    <input type="text" placeholder="Digite aqui a resposta" class="alternative-input">
+                </div>
+            </div>
+            
+            <div class="buttons">
+                <button class="btn-delete">Excluir Questão</button>
+                <button class="btn-add">Adicionar Questão</button>
+            </div>
+            
+            <div class="navigation">
+                <button class="btn-nav">&larr;</button>
+                <button class="btn-nav">&rarr;</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

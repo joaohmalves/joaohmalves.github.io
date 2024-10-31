@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - EasyQuiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">EasyQuiz</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="login.html">Entrar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="login-page">
+        <div class="login-box">
+            <p>Deseja entrar como:</p>
+            <div class="role-selector">
+                <button id="professor-btn" class="role-btn active">Professor</button>
+                <button id="aluno-btn" class="role-btn">Aluno</button>
+            </div>
+            <form>
+                <input type="text" placeholder="Login" required>
+                <input type="password" placeholder="Senha" required>
+                <button type="submit" class="login-btn">Entrar</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
